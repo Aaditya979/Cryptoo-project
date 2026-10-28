@@ -1,0 +1,8 @@
+tls_version,cipher_suite,cipher_suite_name,policy_status,reason
+TLS 1.2,C02B,TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256,Approved,AES-GCM suite permitted by the preliminary project policy.
+TLS 1.2,C02C,TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384,Approved,AES-GCM suite permitted by the preliminary project policy.
+TLS 1.2,C02F,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,Approved,AES-GCM suite permitted by the preliminary project policy.
+TLS 1.2,C030,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,Approved,AES-GCM suite permitted by the preliminary project policy.
+TLS 1.3,1301,TLS_AES_128_GCM_SHA256,Approved,TLS 1.3 AES-GCM suite permitted by the preliminary project policy.
+TLS 1.3,1302,TLS_AES_256_GCM_SHA384,Approved,TLS 1.3 AES-GCM suite permitted by the preliminary project policy.
+TLS 1.0,C014,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,Not Approved,TLS 1.0 is below the project's minimum TLS 1.2 requirement.

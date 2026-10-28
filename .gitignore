@@ -1,0 +1,41 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Large datasets - review before committing
+# Uncomment these if you do not want to upload CSV datasets
+# *.csv
+
+# Model artifacts - uncomment if you do not want to upload trained models
+# *.joblib
+# *.pkl
+
+# Exclude malware sample dataset
+malware_sample.csv
